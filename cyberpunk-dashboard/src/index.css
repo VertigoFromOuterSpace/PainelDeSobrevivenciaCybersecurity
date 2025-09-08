@@ -1,0 +1,15 @@
+
+@font-face {
+  font-family: 'VT323';
+  src: url('./assets/fonts/VT323/VT323-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark-background text-light-gray font-mono-cyber;
+}
